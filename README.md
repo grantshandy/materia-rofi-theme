@@ -7,18 +7,7 @@ What it looks like:
 
 ## Installation
 
-Make sure you have rofi installed.
-
-Distro | Package Name / Link
---- | ---
-Arch Linux | `materia-gtk-theme`
-Debian testing / unstable | `materia-gtk-theme`
-Fedora | `materia-gtk-theme` from [@LaurentTreguier's Copr](https://copr.fedorainfracloud.org/coprs/tcg/themes)
-Solus | `materia-gtk-theme`
-Ubuntu 18.04 or later | `materia-gtk-theme`
-Ubuntu 17.10 | `materia-gtk-theme` from [@igor-dyatlov's PPA](https://launchpad.net/~dyatlov-igor/+archive/ubuntu/materia-theme)
-
-Next, copy the file into your themes directory.
+Copy the file into your themes directory.
 
 ```
 git clone https://github.com/DefunctLizard/materia-rofi-theme.git
