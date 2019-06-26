@@ -3,4 +3,4 @@ This is a rofi theme based on the materia gtk theme (https://github.com/nana-4/m
 
 What it looks like:
 
-![Materia Rofi Theme](https://i.imgur.com/V4DQyiE.png)
+![Materia Rofi Theme](https://i.imgur.com/oEyNq4H.mp4)
