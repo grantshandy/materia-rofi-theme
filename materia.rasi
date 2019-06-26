@@ -1,0 +1,109 @@
+/*
+ * ROFI color theme
+ *
+ * Based on the Materia Color Scheme (https://github.com/nana-4/materia-theme)
+ * 
+ * Created by Grant Handy
+ */
+
+* {
+	base00: #383838;
+	base02: #383838;
+	base03: #FFFFFF;
+	base0A: #C3E88D;
+	base0B: #282828;
+	base0C: #FF5370;
+
+	/*base0B: #00BCD4;*/
+
+	spacing: 0;
+	background-color: transparent;
+
+	font: "Roboto 13";
+}
+
+window {
+	/*fullscreen: true;*/
+	background-color: #383838;
+}
+
+mainbox {
+	children: [inputbar, message, listview];
+	spacing: 30px;
+	/*margin: 20%;*/
+	padding: 30px 0;
+}
+
+inputbar {
+	padding: 0 30px;
+	children: [textbox-prompt-colon, entry, case-indicator];
+}
+
+prompt {
+	text-color: @base0B;
+}
+
+textbox-prompt-colon {
+	expand: false;
+	str: ":";
+	margin: 0 1ch 0 0;
+	text-color: @base03;
+}
+
+entry {
+	text-color: @base03;
+}
+
+case-indicator {
+	text-color: @base0C;
+}
+
+sidebar, message {
+	border: 1px 0;
+	border-color: @base0B;
+}
+
+button, textbox {
+	background-color: @base02;
+	text-color: @base03;
+	padding: 5px;
+}
+
+button selected {
+	background-color: @base0B;
+}
+
+listview {
+	scrollbar: true;
+	margin: 0 10px 0 30px;
+}
+
+element {
+	padding: 5px;
+	highlight: bold underline;
+}
+
+element normal {
+	background-color: transparent;
+}
+
+element selected {
+	background-color: @base0B;
+}
+
+element alternate {
+	/*background-color: @base02;*/
+}
+
+element normal normal, element selected normal, element alternate normal {
+	text-color: @base03;
+}
+
+element normal urgent, element selected urgent, element alternate urgent {
+	text-color: @base0C;
+}
+
+element normal active, element selected active, element alternate active {
+	text-color: @base0A;
+}
+
