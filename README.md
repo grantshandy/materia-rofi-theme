@@ -16,9 +16,9 @@ One Liner:
 Or, the long version:
 
 ```
-git clone https://github.com/DefunctLizard/materia-rofi-theme.git
-cd materia-rofi-theme
-cp materia.rasi /usr/share/rofi/themes
+$ git clone https://github.com/DefunctLizard/materia-rofi-theme.git
+$ cd materia-rofi-theme
+# cp materia.rasi /usr/share/rofi/themes
 ```
 
 ## Execute the Theme
