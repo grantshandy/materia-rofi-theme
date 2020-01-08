@@ -1,4 +1,4 @@
-<h1 align="center">materia-rofi-theme</h1>
+<h1 align="center">Materia Rofi Theme</h1>
 
 This is a rofi theme based on the [Materia GTK Theme](https://github.com/nana-4/materia-theme)
 
