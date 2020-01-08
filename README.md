@@ -7,7 +7,13 @@ What it looks like:
 
 ## Installation
 
-Copy the file into your themes directory.
+One Liner:
+
+```
+# wget https://raw.githubusercontent.com/DefunctLizard/materia-rofi-theme/master/materia.rasi \ -P /usr/share/rofi/themes
+```
+
+Or, the long version:
 
 ```
 git clone https://github.com/DefunctLizard/materia-rofi-theme.git
@@ -16,7 +22,16 @@ cp materia.rasi /usr/share/rofi/themes
 ```
 
 ## Execute the Theme
+
 Just type:
 ```
 rofi -show run -theme materia
+```
+
+## Add to i3WM Config Files
+
+You can get rofi to automatically run at the touch of a key in the I3WM config files. Just add this to your `~/.config/i3/config` file.
+
+```
+bindsym $mod+d exec --no-startup-id rofi -show run -theme materia
 ```
